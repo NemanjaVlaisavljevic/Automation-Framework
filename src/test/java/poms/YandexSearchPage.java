@@ -44,6 +44,7 @@ public class YandexSearchPage extends BasePageObject {
         waitToBeClickable(searchInput, 10L);
         searchInput.sendKeys(keyword);
         searchInput.sendKeys(Keys.ENTER);
+        waitForLoad(5L);
     }
 
     public List<Map<String, String>> extractYandexSearchResults() {

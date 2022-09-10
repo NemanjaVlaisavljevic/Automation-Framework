@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8884a0-9d38-4371-bd8b-2d1d7553b4f1" name="Changes" comment="* Adding base classes for automation framework.&#10;* Adding SearchEngineTests class containing both google and yandex search test as well as provideKeywordForSearch method used with @ParameterizedTest annotation.&#10;* Adding SearchResultExtractor class containing methods for extracting common search result from both search engines and extracting search results containing given keyword(s).&#10;* Adding Google and Yandex POM classes for doing the actual search on the engines.">
+    <list default="true" id="0a8884a0-9d38-4371-bd8b-2d1d7553b4f1" name="Changes" comment="* Adding README.md initial file.&#10;* Adding environment variables png.">
+      <change afterPath="$PROJECT_DIR$/logs/SearchEngines.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/containers/TestSessionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/containers/TestSessionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/poms/YandexSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/poms/YandexSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testParameters.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testParameters.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +58,14 @@
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="data_provider.DataProvider" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nemanja247\Desktop\java_projects\automation_framework" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="containers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchEngineTests">
+  <component name="RunManager" selected="JUnit.SearchEngineTests.searchYandexByKeyword">
     <configuration name="SearchEngineTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation_framework" />
       <extension name="coverage">
@@ -84,6 +92,22 @@
       <option name="PACKAGE_NAME" value="runners" />
       <option name="MAIN_CLASS_NAME" value="runners.SearchEngineTests" />
       <option name="METHOD_NAME" value="searchGoogleByKeyword(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchEngineTests.searchYandexByKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation_framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.SearchEngineTests" />
+      <option name="METHOD_NAME" value="searchYandexByKeyword(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,22 +154,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
       <option name="MAIN_CLASS_NAME" value="runners.YandexSearchTestRunner" />
-      <option name="METHOD_NAME" value="searchYandexByKeyword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YandexSearchTestRunner.searchYandexByKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation_framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.YandexSearchTestRunner" />
       <option name="METHOD_NAME" value="searchYandexByKeyword(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -154,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchEngineTests.searchYandexByKeyword" />
         <item itemvalue="JUnit.SearchEngineTests" />
         <item itemvalue="JUnit.SearchEngineTests.searchGoogleByKeyword" />
         <item itemvalue="JUnit.YandexSearchTestRunner" />
         <item itemvalue="JUnit.YandexSearchTestRunner.searchYandexByKeyword (1)" />
-        <item itemvalue="JUnit.YandexSearchTestRunner.searchYandexByKeyword" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662821287763</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="* Adding README.md initial file.&#10;* Adding environment variables png.">
+      <created>1662821918020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662821918020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +218,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="* Deleting main package and classes inside it.&#10;* Adding dependencies inside pom.xml file." />
     <MESSAGE value="* Adding base classes for automation framework.&#10;* Adding SearchEngineTests class containing both google and yandex search test as well as provideKeywordForSearch method used with @ParameterizedTest annotation.&#10;* Adding SearchResultExtractor class containing methods for extracting common search result from both search engines and extracting search results containing given keyword(s).&#10;* Adding Google and Yandex POM classes for doing the actual search on the engines." />
-    <option name="LAST_COMMIT_MESSAGE" value="* Adding base classes for automation framework.&#10;* Adding SearchEngineTests class containing both google and yandex search test as well as provideKeywordForSearch method used with @ParameterizedTest annotation.&#10;* Adding SearchResultExtractor class containing methods for extracting common search result from both search engines and extracting search results containing given keyword(s).&#10;* Adding Google and Yandex POM classes for doing the actual search on the engines." />
+    <MESSAGE value="* Adding README.md initial file.&#10;* Adding environment variables png." />
+    <option name="LAST_COMMIT_MESSAGE" value="* Adding README.md initial file.&#10;* Adding environment variables png." />
   </component>
 </project>

@@ -7,9 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Containing fields that we use throughout test suite execution
- */
 public class TestSessionData {
 
     private WebDriver driver;
