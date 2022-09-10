@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8884a0-9d38-4371-bd8b-2d1d7553b4f1" name="Changes" comment="* Updating README.md file.">
-      <change beforePath="$PROJECT_DIR$/m2_home_env_variable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven_home_env_variable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_Path_env_variables.png" beforeDir="false" />
+    <list default="true" id="0a8884a0-9d38-4371-bd8b-2d1d7553b4f1" name="Changes" comment="* Moving images to separate folder.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,7 @@
       <recent name="data_provider.DataProvider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nemanja247\Desktop\java_projects\automation_framework\env_variables" />
       <recent name="C:\Users\nemanja247\Desktop\java_projects\automation_framework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -211,7 +210,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662824500419</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* Updating README.md file.">
+      <created>1662824729161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662824729161</updated>
+    </task>
+    <task id="LOCAL-00007" summary="* Updating README.md file.">
+      <created>1662824789973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662824789973</updated>
+    </task>
+    <task id="LOCAL-00008" summary="* Moving images to separate folder.">
+      <created>1662824870679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662824870679</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +252,7 @@
     <MESSAGE value="* Adding README.md initial file.&#10;* Adding environment variables png." />
     <MESSAGE value="* Adding images for maven and system path variables." />
     <MESSAGE value="* Updating README.md file." />
-    <option name="LAST_COMMIT_MESSAGE" value="* Updating README.md file." />
+    <MESSAGE value="* Moving images to separate folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="* Moving images to separate folder." />
   </component>
 </project>

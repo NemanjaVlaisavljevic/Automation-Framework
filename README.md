@@ -5,12 +5,12 @@
 
 ## Prerequisites
 - Maven build tool 3.8.6
-- ![M2 Environment Variable](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/m2_home_env_variable.png)
-- ![MAVEN HOME Environment Variable](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/maven_home_env_variable.png)
+- ![M2 Environment Variable](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/env_variables/m2_home_env_variable.png)
+- ![MAVEN HOME Environment Variable](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/env_variables/maven_home_env_variable.png)
 - Java 17 (if you are using Windows set `JAVA_HOME` environment variable to point to jdk root folder e.g. `C:\Program Files\Java\jdk-17.0.3`)
-- ![Java Environment Variable](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/java_env_variable.png)
+- ![Java Environment Variable](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/env_variables/java_env_variable.png)
 - Edit System variables/Path and add the below two variables
-- ![System Path Environment Variables](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/system_Path_env_variables.png)
+- ![System Path Environment Variables](https://github.com/NemanjaVlaisavljevic/Automation-Framework/blob/master/env_variables/system_Path_env_variables.png)
 
 ## Project Structure
 - `src/test/java/containers/Hooks` - Contains @Before and @After methods that are used for setting up object, logging results and cleaning up after the tests are finished
